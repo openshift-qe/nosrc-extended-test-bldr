@@ -33,7 +33,7 @@
 		"source": {
 		    "type": "Git",
 		    "git": {
-			"uri": "https://github.com/gabemontero/nosrc-extended-test-bldr.git"
+			"uri": "https://github.com/openshift-qe/nosrc-extended-test-bldr.git"
 		    }
 		},
 		"strategy": {

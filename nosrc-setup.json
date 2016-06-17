@@ -37,8 +37,13 @@
 		    }
 		},
 		"strategy": {
-		    "type": "Docker",
-		    "dockerStrategy": {
+		    "type": "Source",
+		    "sourceStrategy": {
+                         "from": {
+                           "kind": "ImageStreamTag",
+                           "name": "ruby:2.0",
+                           "namespace": "openshift"
+                        }
 		    }
 		},
 		"output":{

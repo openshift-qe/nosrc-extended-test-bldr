@@ -43,7 +43,8 @@
                            "kind": "ImageStreamTag",
                            "name": "ruby:2.0",
                            "namespace": "openshift"
-                        }
+                        },
+                         "scripts": "https://raw.githubusercontent.com/openshift-qe/nosrc-extended-test-bldr/master"
 		    }
 		},
 		"output":{
